@@ -19,6 +19,8 @@ script:
 branches:
   only:
     - master
+    - feture/present
+    - dev/present
     - gh-pages
 notifications:
   irc:
